@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      List
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let request of items" tappable (click)="detailsScreen(request)">
+      
+        <h2>{{request.API}}</h2>
+        
+    </ion-item>
+  </ion-list>
+</ion-content>

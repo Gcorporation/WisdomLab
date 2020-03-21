@@ -1,0 +1,7 @@
+{
+  "name": "wisdomladApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
